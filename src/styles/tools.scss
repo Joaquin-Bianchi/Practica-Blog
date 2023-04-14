@@ -1,0 +1,12 @@
+@use "/src/styles/variables.scss";
+
+@mixin container-width {
+  width: 100%;
+  max-width: var(--container-max-width);
+}
+// Resposive//
+@mixin desktop {
+  @media screen and (min-width: variables.$breakpoint-large) {
+    @content;
+  }
+}

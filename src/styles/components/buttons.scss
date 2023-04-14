@@ -1,0 +1,75 @@
+//FALTAN ICONOS EN LOS DOS BOTONES
+.text-btn {
+  color: var(--color-blackPearl-900);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+
+  &.is-active {
+    color: var(--color-aquarius-600);
+    //Revisar hover
+    &:hover {
+      color: var(--color-aquarius-700);
+    }
+  }
+}
+// QUE HACER CON EL WIDTH???
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  gap: 8px;
+  border: 2px transparent;
+  border-radius: 2px;
+  font-family: "Inter";
+  font-weight: 700;
+  transition: background, color 0.3s ease-in-out;
+}
+
+.button-primary {
+  background-color: var(--color-aquarius-600);
+  height: 56px;
+  width: 221px;
+  color: var(--color-aquarius-50);
+  &:hover {
+    background-color: var(--color-aquarius-700);
+    box-shadow: 0px 6px 10px 0px rgba(44, 159, 175, 0.17);
+  }
+  &:disabled {
+    background-color: var(--color-aquarius-50);
+  }
+}
+
+.button-secondary {
+  background-color: var(--color-blackPearl-900);
+  width: 131px;
+  height: 56px;
+  color: var(--color-aquarius-50);
+  //revisar color
+  &:hover {
+    background-color: var(--color-blackPearl-800);
+    color: var(--color-aquarius-700);
+    box-shadow: 0px 6px 10px 0px rgba(27, 38, 44, 0.16);
+  }
+  &:disabled {
+    background-color: var(--color-blackPearl-200);
+  }
+}
+.input-buscar {
+  background-color: var(--color-blackPearl-100);
+  color: var(--color-blackPearl-700);
+  &::placeholder {
+    color: var(--color-blackPearl-400);
+  }
+ 
+  padding: 17px;
+  gap: 10px;
+  width: 100%;
+  max-width: 290px;
+  height: 48px;
+  border-radius: 2px;
+  border: none;
+}

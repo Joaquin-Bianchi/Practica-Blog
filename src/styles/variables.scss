@@ -1,0 +1,19 @@
+:root {
+  --color-white: #ffff;
+  --color-blackPearl-50: #e4ebee;
+  --color-blackPearl-100: rgba(201, 214, 222, 1);
+  --color-blackPearl-200: rgba(173, 194, 205, 1);
+  --color-blackPearl-400: rgba(119, 153, 172, 1);
+  --color-blackPearl-700: rgba(60, 85, 98, 1);
+  --color-blackPearl-800: #2c3d47;
+  --color-blackPearl-900: rgba(13, 46, 50, 1);
+
+  --color-aquarius-50: rgba(226, 245, 247, 1);
+  --color-aquarius-100: rgba(197, 234, 240, 1);
+  --color-aquarius-500: rgba(81, 193, 209, 1);
+  --color-aquarius-600: rgba(53, 182, 200, 1);
+  --color-aquarius-700: #288996;
+
+  --container-max-width: 1180px;
+}
+$breakpoint-large: 992px;
